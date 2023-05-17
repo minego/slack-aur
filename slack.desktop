@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0.0
+Name=Slack
+Comment=Slack Desktop
+Exec=slack
+Icon=slack
+Terminal=false
+Type=Application
+Categories=Internet;Application;InstantMessaging;
+MimeType=x-scheme-handler/slack;
