@@ -24,7 +24,7 @@ build() {
 	    echo "Unsupported architecture. Aborting"
 	    exit 1
 	fi
-	nativefier --platform "linux" --tray --name "Slack" "https://venafi.slack.com/" --honest --disable-dev-tools --single-instance --app-version $pkgver --build-version $pkgrel --arch ${_NFARCH}
+	nativefier --platform "linux" --name "Slack" "https://venafi.slack.com/" --honest --disable-dev-tools --single-instance --app-version $pkgver --build-version $pkgrel --arch ${_NFARCH}
 }
 
 package() {
